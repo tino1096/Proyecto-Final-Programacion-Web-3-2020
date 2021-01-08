@@ -1,3 +1,8 @@
+/*  Diseño: CSS3 Para el diseño. 
+Para el dideño del login.Este archivo configura lo estilos de las tablas que aparecen en el proyecto.
+Se puede observar el tipo de letra, los bordes y nth-child para cambiar de color
+las filas de las tablas.
+*/
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
