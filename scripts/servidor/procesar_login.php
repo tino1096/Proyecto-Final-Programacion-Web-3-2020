@@ -1,8 +1,8 @@
 <?php
     session_start();
     include("conexion_PDO.php");
-    $conexionPDO = conexionPDO("Faustino", "1tino1", "bdsimapaj");
-    $consulta = "SELECT * FROM usuarios WHERE user = ? AND password = SHA(?)";
+    $conexionPDO = conexionPDO("id15799552_faustino", "^w2N1Tp_TQH9}NW#", "id15799552_bdsimapaj");
+    $consulta = "SELECT * FROM usuarios WHERE user = ? AND password = sha1(?)";
     
     $user = $_POST['caja_user'];
     $password = $_POST['caja_password'];
@@ -23,6 +23,3 @@
             header("Location: ../../index.html");
         }
     }
-
-    $sentencia = null;
-?>
