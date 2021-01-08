@@ -1,13 +1,18 @@
+/* Diseño: CSS3 Para el diseño. 
+En los estilos del inicio se configura el panel de menu que esta en la parte isquierda de la pantalla
+donde se muestran botones redondeados y configuracion de color, alineacion de texto, entre otras.
+*/
+
 html, body {
     font-family: 'Numans', sans-serif;
 }
 
 .container-fluid {
-    background-color: #5e2129;
+    background-color: #004d7f;
 }
 
 .tag {
-    background-color: #5e2129;
+    background-color: #004d7f;
     color: white;
     text-align: center;
     padding: 3px 10px;
