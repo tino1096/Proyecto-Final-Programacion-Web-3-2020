@@ -1,5 +1,9 @@
+/* Diseño: CSS3 Para el diseño. 
+Se utiliza un mismo background color para todos los botones, excepto para los boton de agregar. 
+para los botones de agregar se utiliza el color verde y ademas se utiliza un hover. 
+*/
 .boton {
-    background-color: #5e2129;
+    background-color: #004d7f;
     color: white;
     font-size:  16px;
     align-items: center;
