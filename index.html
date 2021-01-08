@@ -1,3 +1,4 @@
+<!-- LOGIN -->
 <!DOCTYPE html>
 <html lang="es">
     
@@ -15,6 +16,7 @@
         <br>
         <h1 class="form-heading">Sistema Municipal de Agua Potable y Alcantarillado de Jerez</h1>
         <br>
+        <!-- Utilizacion de formulario-->
         <div class="login-form">
             <div class="main-div">
                 <div class="panel">
@@ -24,6 +26,8 @@
                 
                 <form id="Login" method="POST" action="scripts/servidor/procesar_login.php">
 
+                    <!-- Para la VALIDACION DE DATOS se utiliza el required, tambien se utiliza en
+                    agregar horario y agregar trabajador  -->
                     <div class="form-group">
                         <input type="text" class="form-control" name="caja_user" id="caja_user" required placeholder="Usuario">
                     </div>
