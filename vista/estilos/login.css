@@ -1,5 +1,8 @@
+/* Diseño: CSS3 Para el diseño. 
+Para el dideño del login. 
+*/
 body#LoginForm{ 
-    background-image: url("../../imagenes/simapaj.jpg"); 
+    background-image: url("../../imagenes/azul.jpg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -49,8 +52,8 @@ body#LoginForm{
 }
 
 .login-form .btn.btn-primary {
-  background: #5e2129 none repeat scroll 0 0;
-  border-color: #5e2129;
+  background: #004d7f none repeat scroll 0 0;
+  border-color: #004d7f;
   color: white;
   font-size: 14px;
   width: 100%;
@@ -60,5 +63,5 @@ body#LoginForm{
 }
 
 .login-form .btn.btn-primary.reset {
-  background: #5e2129 none repeat scroll 0 0;
+  background: #004d7f none repeat scroll 0 0;
 }
